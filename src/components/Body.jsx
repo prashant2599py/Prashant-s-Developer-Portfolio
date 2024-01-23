@@ -1,8 +1,14 @@
 import React from 'react'
+import BodyRow from './BodyRow'
 
 function Body() {
   return (
-    <div>Body</div>
+    <div>
+      <div >
+          <BodyRow />
+      </div>
+    
+    </div>
   )
 }
 

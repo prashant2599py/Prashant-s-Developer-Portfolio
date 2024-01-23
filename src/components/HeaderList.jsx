@@ -7,7 +7,7 @@ function HeaderList({ listItem }) {
      <ul>
         {listItem.map( (data) => {
           return (
-            <li>{data.title}</li>
+            <li key = {data.id}>{data.title}</li>
           )
         })}
       </ul>
