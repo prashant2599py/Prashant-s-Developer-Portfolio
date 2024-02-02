@@ -1,6 +1,6 @@
 import React from 'react'
 import Buttons from './Buttons'
-import image1 from "./store/images/bg_img.png"
+import image1 from "../images/bg_img.png"
 
 
 function BodyRow() {
