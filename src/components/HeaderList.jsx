@@ -1,5 +1,5 @@
 import React from "react";
-import listItem from '../data.js'
+
 
 function HeaderList({ listItem }) {
   return (
