@@ -6,9 +6,11 @@ function Body() {
     <div>
       <div >
           <BodyRow />
-      </div>    
+      </div>   
     </div>
   )
 }
+
+
 
 export default Body
