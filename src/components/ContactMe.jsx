@@ -6,8 +6,7 @@ function ContactMe() {
     register,
     handleSubmit,
     watch,
-    isSubmitting,
-    formState: { errors },
+    formState: { errors, isSubmitting},
   } = useForm();
 
   const delay = (d)=> {
@@ -24,9 +23,13 @@ function ContactMe() {
   }
 
   return (
-    <div>
+    <div className="h-screen">
+      <div className="bg-zinc-900 flex justify-center pt-4 ">
+        <div className="p-2 text-white text-4xl max-w-screen-md my-4">Contact Me</div>
+      </div>
       <form onSubmit={handleSubmit(onSubmission)}>
-        <input type="text" placeholder="Enter your First Name" {...register("firstName", { required: true})} /> <br />
+        <input type="text" placeholder="Enter your First Name" className="w-80%"
+                     {...register("firstName", { required: true})} /> <br />
         <input type="text" placeholder="Enter your Last Name" {...register("lastName", { required: true })} /> <br />
 
         {errors.firstName && <p>First name is required</p>}
