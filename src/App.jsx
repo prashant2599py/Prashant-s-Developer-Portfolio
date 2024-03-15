@@ -4,6 +4,7 @@ import Body from './components/Body'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
 import ContactMe from './components/ContactMe'
+import { Contact } from './components/Contact'
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       </Body>
       <Skills />
       <Experience />
-      <ContactMe />
+      <div className='h-28 bg-zinc-900' />
+      <Contact/>
       
     </div>
   )
