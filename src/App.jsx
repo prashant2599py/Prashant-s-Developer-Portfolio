@@ -3,8 +3,7 @@ import Header from './components/Header'
 import Body from './components/Body'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
-import ContactMe from './components/ContactMe'
-import { Contact } from './components/Contact'
+import { Contact_Me } from './components/Contact_Me'
 
 
 function App() {
@@ -19,7 +18,7 @@ function App() {
       <Skills />
       <Experience />
       <div className='h-28 bg-zinc-900' />
-      <Contact/>
+      <Contact_Me/>
       
     </div>
   )
