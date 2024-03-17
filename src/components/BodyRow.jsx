@@ -39,15 +39,16 @@ function BodyRow() {
 }
 
 export function About({label}){
-  return <div>
+  return <div className='ml-4'>
     {label}
   </div>
 }
 
 export function AboutInfo(){
   return <div className='mx-3.5'>
+    <div className='w-1/3 bg-orange-400 h-1 rounded' /><br />
     
-    <hr className='bg-orange-400 h-1 w-28'/><p>I'm an enthusiast, passionate and hardworking with a strong interest in Backend/Frontend Development,
+    <p>I'm an enthusiast, passionate and hardworking with a strong interest in Backend/Frontend Development,
         With a sound knowledge in Java, JavaScript, HTML, CSS. 
         I am a dynamic and dedicated software engineer with a
         burning passion for technology and a relentless drive
@@ -55,7 +56,7 @@ export function AboutInfo(){
         staying at the cutting edge of emerging technologies. In an
         industry that moves at lightning speed. What sets me apart is
         my unwavering commitment to excellence and my insatiable
-        thirst for knowledge
+        thirst for knowledge.
           
     </p>
   </div>

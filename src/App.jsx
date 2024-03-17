@@ -17,7 +17,7 @@ function App() {
       </Body>
       <Skills />
       <Experience />
-      <div className='h-28 bg-zinc-900' />
+      <div className='h-40 bg-zinc-900' />
       <Contact_Me/>
       
     </div>
